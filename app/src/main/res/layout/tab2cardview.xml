@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardCornerRadius="20dp"
+    android:elevation="80dp"
+    android:layout_margin="10dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="#FFFFFF">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/post_eventype"
+            android:text="TYPE"
+            android:textColor="@color/colorBlue"
+            android:textSize="18dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp">
+
+        </TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/post_desc"
+            android:text="DESCRIPTION"
+            android:textColor="@color/colorBlue"
+            android:textSize="18dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="10dp">
+
+        </TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/post_venue"
+            android:text="VENUE"
+            android:textSize="18dp"
+            android:textColor="@color/colorBlue"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="10dp">
+
+        </TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/post_date"
+            android:textSize="18dp"
+            android:text="DATE"
+            android:textColor="@color/colorBlue"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp">
+
+        </TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/post_time"
+            android:textSize="18dp"
+            android:text="TIME"
+            android:textColor="@color/colorBlue"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp">
+
+        </TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/post_user"
+            android:textSize="14dp"
+            android:text="USERNAME"
+            android:textColor="@color/colorGreen"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp">
+
+        </TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/post_blk"
+            android:textSize="14dp"
+            android:text="BLOCK"
+            android:textColor="@color/colorGreen"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp">
+
+        </TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/post_flat"
+            android:textSize="14dp"
+            android:text="FLAT"
+            android:textColor="@color/colorGreen"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="2dp">
+
+        </TextView>
+
+
+
+    </LinearLayout>
+
+
+
+</androidx.cardview.widget.CardView>

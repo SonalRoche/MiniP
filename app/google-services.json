@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "240234579463",
+    "firebase_url": "https://minip-646c1.firebaseio.com",
+    "project_id": "minip-646c1",
+    "storage_bucket": "minip-646c1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:240234579463:android:ae587df68bfacff0",
+        "android_client_info": {
+          "package_name": "com.example.minip"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "240234579463-6mpdfpqe80d58pq1m0v211mea165mccq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.minip",
+            "certificate_hash": "0af5adbd25c8e30f32ebc426d1e49ddf1b9cd816"
+          }
+        },
+        {
+          "client_id": "240234579463-b32po3uf2tf2pbrv76uouf5pr120dn8j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyATT6sCoPVqhaQQIx5jP2NEVi3RwjFKZkI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "240234579463-b32po3uf2tf2pbrv76uouf5pr120dn8j.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

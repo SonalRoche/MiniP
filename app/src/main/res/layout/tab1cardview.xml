@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardCornerRadius="20dp"
+    android:elevation="80dp"
+    android:layout_margin="10dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="#FFFFFF">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/post_topic"
+            android:text="TOPIC"
+            android:textColor="@color/colorBlue"
+            android:textSize="18dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp">
+
+        </TextView>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/post_question"
+            android:text="QUESTION"
+            android:textColor="@color/colorBlue"
+            android:textSize="18dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="10dp">
+
+        </TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/post_username"
+            android:text="NAME"
+            android:textSize="14dp"
+            android:textColor="@color/colorGreen"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="10dp">
+
+        </TextView>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/post_block"
+            android:text="BLOCK"
+            android:textSize="14dp"
+            android:textColor="@color/colorGreen"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="10dp">
+
+        </TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/post_flatnum"
+            android:text="FLATNO"
+            android:textSize="14dp"
+            android:textColor="@color/colorGreen"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="10dp">
+
+        </TextView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+        <EditText
+            android:layout_width="220dp"
+            android:layout_height="40dp"
+            android:id="@+id/comment"
+            android:textSize="16dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:hint="Comment"
+            android:cursorVisible="false"
+            android:textColor="@color/colorPurple"
+            android:inputType="textMultiLine">
+
+        </EditText>
+
+            <Button
+                android:id="@+id/postbtn"
+                android:layout_width="70dp"
+                android:layout_height="25dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="8dp"
+                android:background="@drawable/btn_round"
+                android:textColor="#ffffff"
+                android:text="POST"
+                android:layout_marginBottom="5dp">
+
+            </Button>
+
+        </LinearLayout>
+
+
+
+
+            <Button
+                android:id="@+id/replies"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/btn_round"
+                android:textColor="#ffffff"
+                android:text="REPLIES"
+                android:layout_marginBottom="5dp">
+
+            </Button>
+
+
+    </LinearLayout>
+
+
+</androidx.cardview.widget.CardView>

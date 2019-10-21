@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardCornerRadius="10dp"
+    android:elevation="80dp"
+    android:layout_margin="10dp">
+
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/purchase"
+            android:text="BUYER PURCHASED FROM SELLER"
+            android:textColor="@color/colorBlue"
+            android:textSize="16dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp">
+        </TextView>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/amount"
+            android:text="AMOUNT"
+            android:textColor="@color/colorBlue"
+            android:textSize="16dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="250dp">
+        </TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/purchase_date"
+            android:text="PURCHASE DATE"
+            android:textColor="@color/colorBlue"
+            android:textSize="16dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginLeft="230dp"
+            android:layout_marginBottom="5dp">
+        </TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/item_name"
+        android:text="ITEM NAME"
+        android:textColor="@color/colorBlue"
+        android:textSize="16dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginBottom="5dp">
+    </TextView>
+
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.minip">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_neighbourly"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_neighbourly"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Replies"></activity>
+        <activity android:name=".Post_sale" />
+        <activity android:name=".Post_event" />
+        <activity android:name=".Post_question" />
+        <activity android:name=".Posts_menu" />
+        <activity android:name=".login" />
+        <activity android:name=".register" />
+        <activity android:name=".Tab1" />
+        <activity android:name=".Tab2" />
+        <activity android:name=".Tab3" />
+        <activity android:name=".Tab4" />
+        <activity android:name=".SectionsPagerAdapter" />
+        <activity android:name=".Tabbed_MainActivity" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+</manifest>
